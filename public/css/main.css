@@ -1,0 +1,64 @@
+figcaption.badge {
+  position: absolute;
+  right: 10px;
+  top: -10px;
+  border-radius: 50%;
+  white-space: normal;
+  width: 90px;
+  height: 90px;
+  padding: 10px;
+}
+
+figcaption.badge * {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  margin: 0;
+}
+
+.figure-caption {
+  position: absolute;
+  bottom: -1.2em;
+  left: 0;
+  font-size: 1.6rem;
+  line-height: 110%;
+  width: 100%;
+}
+
+img.rounded-circle {
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: -50% 0;
+     object-position: -50% 0;
+}
+
+.custom-list-style li {
+  font-size: 1.1rem;
+  font-weight: 500;
+  margin-bottom: 0.5em;
+}
+
+.custom-list-style li::before {
+  content: "\f00c";
+  font-family: "Font Awesome 5 Free";
+  color: dodgerblue;
+  font-weight: 900;
+  display: inline-block;
+  margin-right: 0.8em;
+}
+
+.custom-width-items > div {
+  width: 365px;
+  max-width: 100%;
+}
+
+.custom-width-items > div h5 {
+  max-width: 95%;
+}
+
+.input-group {
+  width: 640px;
+  max-width: 90%;
+}
